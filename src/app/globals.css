@@ -1,0 +1,144 @@
+/* Fonts Catamaran */
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+/* Fonts Catamaran */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../../public/font/HelveticaNeueBlack.otf');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../../public/font/HelveticaNeueHeavy.otf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../../public/font/HelveticaNeueBold.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../../public/font/HelveticaNeueMedium.otf');
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../../public/font/HelveticaNeueLight.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../../public/font/HelveticaNeueThin.otf');
+    font-weight: 100;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0 !important;
+}
+
+h1 {
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 104px;
+}
+
+h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+
+    span {
+        font-weight: 400;
+    }
+}
+
+h3 {
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+h4 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+h5 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+h6 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+span.color-chnage {
+    color: #F7DB15;
+}
+
+button {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    outline: none;
+}
+
+p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Catamaran", sans-serif;
+    margin: 0 !important;
+}
+
+
+.hr{
+    width: 20%;
+    border-bottom:2px solid #F7DB15 ;
+    margin-top: 10px;
+}
+
+
+.popup-content{
+    margin: auto;
+    background: #000 !important;
+    width: 80% !important;
+    padding: 0px !important;
+    border: none !important;
+    border-radius: 10px;
+}

@@ -1,0 +1,32 @@
+.header {
+
+    border-bottom: 1px solid #E1E1E1;
+
+    .nav {
+
+
+        p {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            font-family: 'Helvetica Neue', sans-serif !important;
+
+            &:nth-child(1){
+                color: #F7DB15;
+            }
+            &:nth-child(2){
+                color: #fff;
+            }
+        }
+
+        button {
+            padding: 15px 30px;
+            border: none;
+            outline: none;
+            border-radius: 70px;
+            background: #000;
+            color: white;
+        }
+    }
+}

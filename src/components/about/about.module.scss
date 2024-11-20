@@ -1,0 +1,23 @@
+.about {
+
+    p {
+        color: #686868;
+    }
+
+    button {
+        padding: 15px 40px;
+        border-radius: 70px;
+        background: #F7DB15;
+
+
+        &:nth-child(2){
+            background-color: transparent !important;
+        }
+
+        .video_model{
+            width: 80%;
+            height: 80vh;
+        }
+    }
+
+}

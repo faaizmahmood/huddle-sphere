@@ -1,0 +1,51 @@
+.trial {
+
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        color: #686868;
+    }
+
+    .signature {
+
+        h6 {
+            color: #000;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+        }
+
+        p{
+            color: #686868;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        img{
+            width: 100px;
+        }
+    }
+
+    .btn_group {
+
+        button {
+            padding: 15px 30px;
+            background-color: black;
+            color: white;
+            border-radius: 30px;
+
+
+            &:nth-child(2) {
+                margin-left: 20px;
+                background-color: #F7DB15;
+                color: black;
+            }
+        }
+    }
+}

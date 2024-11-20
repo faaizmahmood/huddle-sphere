@@ -1,0 +1,28 @@
+.upcommingClasses {
+
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        color: #686868;
+    }
+
+    .hr {
+        width: 10%;
+        border-bottom: 2px solid #F7DB15;
+        margin-top: 10px;
+    }
+
+
+    button {
+        padding: 15px 40px;
+        border-radius: 70px;
+        background: #000;
+        color: white;
+    }
+
+}

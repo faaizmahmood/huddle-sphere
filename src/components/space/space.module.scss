@@ -1,0 +1,24 @@
+
+
+.space{
+
+    background-color: #F7DB15;
+    width: 100%;
+    min-height: 80vh;
+
+    .space_wrapper{
+        width: 100%;
+        min-height: 200px;
+
+        p{
+            color: #686868;
+        }
+
+        button{
+            padding: 15px 30px;
+            border-radius: 70px;
+            background: #F7DB15;
+        }
+    }
+
+}

@@ -1,0 +1,69 @@
+.hero {
+
+    width: 100%;
+    height: 135vh;
+
+
+    .hero_content {
+
+        h1 {
+            color: white;
+
+            span {
+                color: #F7DB15;
+            }
+        }
+
+        p {
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        button {
+            padding: 15px 30px;
+            border: none;
+            outline: none;
+            border-radius: 70px;
+
+            &:nth-child(1) {
+                background-color: #F7DB15;
+                color: #000;
+            }
+
+            &:nth-child(2) {
+                background-color: #000000;
+                color: #fff;
+            }
+        }
+    }
+
+
+    .hero_boxes {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        .hero_box {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero_boxes_1 {
+            width: 313px;
+            height: 124px;
+            background-color: #000;
+        }
+
+        .hero_boxes_2 {
+            width: 314px;
+            height: 195px;
+            background: #F7DB15;
+        }
+    }
+
+}

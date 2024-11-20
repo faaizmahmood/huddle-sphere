@@ -1,0 +1,47 @@
+.cards {
+    background-color: #F4F4F4;
+    width: 100%;
+    min-height: 70vh;
+
+    .cards_content {
+
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p {
+            color: #686868;
+        }
+    }
+
+    .cards_items {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        .card_item{
+            width: 24%;
+        }
+
+        .cards_box {
+            background-color: #FFFFFF;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+
+            h5{
+                color: #000000;
+            }
+
+            p{
+                color: #686868;
+            }
+        }
+    }
+
+}
