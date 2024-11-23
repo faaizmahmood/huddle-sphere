@@ -4,6 +4,18 @@
 
 /* Fonts Catamaran */
 
+/* Font Archivo Black */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/* Font Archivo Black */
+
+/* Font Archivo */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Font Archivo */
+
 * {
     margin: 0;
     padding: 0;
@@ -54,7 +66,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: "Archivo Black", sans-serif;
     margin: 0 !important;
 }
 
@@ -88,6 +100,10 @@ h4 {
     font-style: normal;
     font-weight: 700;
     line-height: 52px;
+
+    span{
+        font-weight: 400;
+    }
 }
 
 h5 {
@@ -100,12 +116,12 @@ h5 {
 h6 {
     font-size: 20px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 32px;
+    font-weight: 600;
+    line-height: 30px;
 }
 
 span.color-chnage {
-    color: #F7DB15;
+    color: #FF6A19;
 }
 
 button {
@@ -118,27 +134,49 @@ button {
 }
 
 p {
-    font-size: 14px;
+    color: #686868;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    font-family: "Catamaran", sans-serif;
+    line-height: 26px;
+    font-family: "Archivo", sans-serif;
     margin: 0 !important;
 }
 
 
-.hr{
+.hr {
     width: 20%;
-    border-bottom:2px solid #F7DB15 ;
+    border-bottom: 2px solid #FF6A19;
     margin-top: 10px;
 }
 
 
-.popup-content{
+.popup-content {
     margin: auto;
     background: #000 !important;
     width: 80% !important;
     padding: 0px !important;
     border: none !important;
     border-radius: 10px;
+}
+
+
+/* responsive */
+
+
+@media (max-width:768px) {
+    
+    h1{
+        font-size: 60px;
+        line-height: 70px;
+    }
+}
+
+
+@media (max-width:576px) {
+    
+    h1{
+        font-size: 44px;
+        line-height: 58apx;
+    }
 }

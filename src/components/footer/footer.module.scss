@@ -1,0 +1,73 @@
+.footer {
+    min-height: 200px;
+    background-color: #212121;
+    padding: 60px 0px;
+
+    .subscribe {
+        background: transparent;
+        min-height: 100px !important;
+        padding: 0 !important;
+        position: relative;
+        /* Ensure stacking context for the pseudo-element */
+        z-index: 1;
+        /* Place .subscribe above its ::before pseudo-element */
+
+        &::before {
+            content: "";
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            z-index: -1;
+            /* Place the pseudo-element below .subscribe */
+        }
+
+        .subscribe_content {
+            background: #FF6A19;
+            width: 100%;
+            height: 100%;
+            padding: 20px 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .input_item {
+
+                input {
+                    padding: 10px 20px;
+                    border: none;
+                    outline: none;
+                    background-color: white;
+                    border-radius: 30px;
+                    width: 100%;
+                    color: #000000;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+
+                    &::placeholder{
+                        color: #C2BFC1;
+                    }
+                }
+            }
+
+            button {
+                padding: 10px 20px;
+                width: 100%;
+                background-color: #000;
+                border-radius: 70px;
+                color: #FFF;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+
+            }
+        }
+    }
+
+}

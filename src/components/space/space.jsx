@@ -6,20 +6,30 @@ const Space = () => {
         <section className={`${styles.space} py-5`}>
 
             <div className='container'>
-                <h2 className='text-center'>Meet our <span>hub space</span></h2>
+                <h2 className='text-center text-white'>Meet our <span>hub space</span></h2>
 
                 <div className={`${styles.space_wrapper} mt-3`}>
-                    <div className='row g-0'>
+                    <div className='row flex-column-reverse flex-lg-row g-0'>
 
-                        <div className='col-4 bg-white px-4 py-5'>
-                            <h3>Open space</h3>
+                        <div className='col-lg-5 bg-white px-4 py-5'>
+                            <h3 className='text-black'>Open Hall Workspace</h3>
                             <div className='hr'></div>
-                            <p className='mt-4'>Discover a vibrant environment designed for collaboration, creativity, and community.</p>
+                            <p className='mt-4'>Our Open Hall Workspace is designed for professionals who thrive in a collaborative and energetic environment.</p>
+
+                            <h4 className='text-black'>Availability</h4>
+
+                            <p className='mt-2'>3 Tables Available</p>
+                            <p className='mt-2'>Per Seat: PKR 12,000/month</p>
+
+                            <h4 className='text-black'>Perfect for</h4>
+
+                            <p>Freelancers, Startups, Remote employees,
+                                Teams for brainstorming sessions</p>
 
                             <button className='mt-4'>Get Workspace</button>
                         </div>
-                        <div className='col-8'>
-                            <img src='./images/space_image.png' alt='Huddle Sphere - Co-Working Space' className='img-fluid'/>
+                        <div className='col-lg-7'>
+                            <img src='./images/space_image.png' alt='Huddle Sphere - Co-Working Space' className='img-fluid' />
                         </div>
 
                     </div>

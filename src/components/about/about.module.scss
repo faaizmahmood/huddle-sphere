@@ -1,5 +1,6 @@
 .about {
 
+
     p {
         color: #686868;
     }
@@ -7,8 +8,8 @@
     button {
         padding: 15px 40px;
         border-radius: 70px;
-        background: #F7DB15;
-
+        background: #FF6A19;
+       color: #FFFFFF;
 
         &:nth-child(2){
             background-color: transparent !important;
@@ -17,6 +18,21 @@
         .video_model{
             width: 80%;
             height: 80vh;
+        }
+    }
+
+}
+
+
+// responsive
+
+
+@media (max-width:992px) {
+    
+    .about{
+
+        img{
+            // width: 100%;
         }
     }
 

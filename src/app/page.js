@@ -13,18 +13,20 @@ import UpcommingClasses from '@/components/upcommingClasses/upcommingClasses';
 import Subscription from '@/components/subscription/subscription';
 import Trial from '@/components/trial/trial';
 import ConferenceHall from '@/components/conferenceHall/conferenceHall';
+import Articles from '@/components/articles/articles';
+import Footer from '@/components/footer/footer';
 
 export default function Home() {
 
   const [loading, setLoading] = useState(true)
 
 
-  useEffect(()=>{
+  useEffect(() => {
     setLoading(true)
-  setTimeout(() => {
-    setLoading(false)
-  }, 2000);
-  },[])
+    setTimeout(() => {
+      setLoading(false)
+    }, 2000);
+  }, [])
 
   return (
     <>
@@ -33,22 +35,24 @@ export default function Home() {
           loading ? (
             <>
               <section className='d-flex flex-column justify-content-center align-items-center' style={{ height: '100vh', backgroundColor: '#000' }}>
-                <img src='./images/logo.png' alt='Huddle Sphere' className='mb-4'/>
-                <PropagateLoader color="#F7DB15" />
+                <img src='./images/logo.png' alt='Huddle Sphere' className='mb-4' />
+                <PropagateLoader color="#FF6A19" />
               </section>
             </>
           ) : (
             <>
               <Hero />
               <About />
-              <Cards/>
-              <Space/>
-              <UpcommingClasses/>
-              <Subscription/>
-              <Trial/>
-              <ConferenceHall/>
+              <Cards />
+              <Space />
+              <UpcommingClasses />
+              {/* <Subscription/> */}
+              {/* <Trial/> */}
+              {/* <ConferenceHall/> */}
               <Gallery />
               <Testimonial />
+              <Articles />
+              <Footer />
             </>
           )
         }

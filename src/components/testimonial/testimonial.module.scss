@@ -5,6 +5,10 @@
   position: relative;
   color: #fff;
 
+  .hr{
+    width: 10% !important;
+  }
+
   .testimonial_card {
     background-color: transparent;
     margin: 30px auto;
@@ -48,7 +52,7 @@
 
     .quote-icon {
       font-size: 2rem;
-      color: #ffd700;
+      color: #FF6A19;
     }
 
     p {
@@ -86,7 +90,7 @@
   .decorative-square {
     width: 60px;
     height: 60px;
-    background-color: #ffd700;
+    background-color: #FF6A19;
     position: absolute;
     cursor: pointer;
     display: flex;

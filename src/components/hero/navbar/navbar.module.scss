@@ -12,10 +12,11 @@
             line-height: normal;
             font-family: 'Helvetica Neue', sans-serif !important;
 
-            &:nth-child(1){
-                color: #F7DB15;
+            &:nth-child(1) {
+                color: #FF6A19;
             }
-            &:nth-child(2){
+
+            &:nth-child(2) {
                 color: #fff;
             }
         }
@@ -30,3 +31,7 @@
         }
     }
 }
+
+
+// responsive
+

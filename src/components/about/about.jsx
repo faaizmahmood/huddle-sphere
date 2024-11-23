@@ -23,10 +23,10 @@ const About = () => {
         <section className={`${styles.about} my-5`}>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-6'>
+                    <div className='col-lg-6 text-center'>
                         <img src='./images/about.png' alt='Huddle Sphere - About' className='img-fluid' />
                     </div>
-                    <div className='col-6'>
+                    <div className='col-lg-6 mt-lg-0 mt-5'>
                         <h2>Space for Freelancers and <span>Creative People</span></h2>
                         <div className='hr'></div>
                         <p className='mt-3'>At HuddleSphere, we provide an inspiring and flexible environment tailored for freelancers and creative individuals. Our coworking space is designed to foster creativity, collaboration, and productivity, making it the perfect place for you to thrive</p>
@@ -34,12 +34,12 @@ const About = () => {
                         <div className={`${styles.about_btn_group} d-flex gap-3 mt-4`}>
                             <button>Read more</button>
                             {/* <button>watch video</button> */}
-                            <Popup trigger={<button onClick={startLoader}>watch video</button>} modal >
+                            {/* <Popup trigger={<button onClick={startLoader}>watch video</button>} modal >
                                 <div className={`${styles.video_model} d-flex justify-content-center align-items-center`} style={{ height: '80vh', width: '100%', borderRadius: '20px' }}>
                                     {
                                         loading ? (
                                             <>
-                                                <PropagateLoader color="#F7DB15" />
+                                                <PropagateLoader color="#FF6A19" />
                                             </>
                                         ) : (
                                             <>
@@ -55,7 +55,7 @@ const About = () => {
                                         )
                                     }
                                 </div>
-                            </Popup>
+                            </Popup> */}
                         </div>
                     </div>
                 </div>

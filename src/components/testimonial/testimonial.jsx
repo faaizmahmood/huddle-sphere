@@ -82,7 +82,7 @@ const Testimonial = () => {
                 What our <span>Visitors Say</span>
             </h2>
 
-            <div className="hr mx-auto"></div>
+            <div className={`hr mx-auto my-4 ${styles.hr}`}></div>
 
             <Swiper
                 modules={[Navigation, Pagination]}
@@ -90,7 +90,7 @@ const Testimonial = () => {
                 slidesPerView={1}
                 onSwiper={(swiper) => (swiperRef.current = swiper)}
                 pagination={false}
-                className={`${styles.testimonial_card} mt-5`}
+                className={`${styles.testimonial_card} `}
             >
 
                 {

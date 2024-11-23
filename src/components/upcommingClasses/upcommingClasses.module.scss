@@ -9,11 +9,12 @@
 
     p {
         color: #686868;
+        width: 50%;
     }
 
     .hr {
         width: 10%;
-        border-bottom: 2px solid #F7DB15;
+        border-bottom: 2px solid #FF6A19;
         margin-top: 10px;
     }
 
@@ -23,6 +24,31 @@
         border-radius: 70px;
         background: #000;
         color: white;
+    }
+
+    .card_item{
+        background-color: #F4F4F4;
+        min-height: 100px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+}
+
+
+// responsive
+
+@media (max-width:768px) {
+    
+    .upcommingClasses{
+
+        p{
+            width: 80%;
+        }
     }
 
 }

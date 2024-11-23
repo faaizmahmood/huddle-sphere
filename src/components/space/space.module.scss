@@ -2,7 +2,7 @@
 
 .space{
 
-    background-color: #F7DB15;
+    background-color: #FF6A19;
     width: 100%;
     min-height: 80vh;
 
@@ -14,10 +14,20 @@
             color: #686868;
         }
 
+        h4{
+            color: #000 !important;
+        }
+
         button{
             padding: 15px 30px;
             border-radius: 70px;
-            background: #F7DB15;
+            background: #FF6A19;
+            color: white;
+        }
+
+
+        img{
+            height: 100%;
         }
     }
 

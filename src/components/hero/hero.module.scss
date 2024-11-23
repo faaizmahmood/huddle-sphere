@@ -10,7 +10,7 @@
             color: white;
 
             span {
-                color: #F7DB15;
+                color: #FF6A19;
             }
         }
 
@@ -29,8 +29,8 @@
             border-radius: 70px;
 
             &:nth-child(1) {
-                background-color: #F7DB15;
-                color: #000;
+                background-color: #FF6A19;
+                color: #FFFFFF;
             }
 
             &:nth-child(2) {
@@ -50,20 +50,118 @@
             padding: 20px;
             display: flex;
             justify-content: center;
-            align-items: center;
+            // align-items: center;
+            flex-direction: column;
         }
 
         .hero_boxes_1 {
             width: 313px;
-            height: 124px;
+            min-height: 124px;
             background-color: #000;
+
+            h6 {
+                color: #FFF;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            p {
+                color: #FF6A19;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
         }
 
         .hero_boxes_2 {
             width: 314px;
             height: 195px;
-            background: #F7DB15;
+            background: #FF6A19;
+
+            h6 {
+                color: #FFF;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 34px;
+                /* 141.667% */
+            }
         }
+    }
+
+}
+
+
+// responsive{
+
+@media (max-width:768px) {
+    
+    .hero {
+
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    
+
+    
+    
+        .hero_boxes {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+    
+            .hero_box {
+                padding: 20px;
+                display: flex;
+                justify-content: center;
+                // align-items: center;
+                flex-direction: column;
+            }
+    
+            .hero_boxes_1 {
+                width: 313px;
+                min-height: 124px;
+                background-color: #000;
+    
+                h6 {
+                    color: #FFF;
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+    
+                p {
+                    color: #FF6A19;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+    
+            .hero_boxes_2 {
+                width: 314px;
+                height: 195px;
+                background: #FF6A19;
+    
+                h6 {
+                    color: #FFF;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 34px;
+                    /* 141.667% */
+                }
+            }
+        }
+    
     }
 
 }
