@@ -6,7 +6,7 @@ import Testimonial from '@/components/testimonial/testimonial';
 import Gallery from '@/components/gallery/gallery';
 import About from '@/components/about/about';
 import { useEffect, useState } from 'react';
-import { PropagateLoader } from 'react-spinners';
+// import { PropagateLoader } from 'react-spinners';
 import Cards from '@/components/cards/cards';
 import Space from '@/components/space/space';
 import UpcommingClasses from '@/components/upcommingClasses/upcommingClasses';
@@ -36,7 +36,8 @@ export default function Home() {
             <>
               <section className='d-flex flex-column justify-content-center align-items-center' style={{ height: '100vh', backgroundColor: '#000' }}>
                 <img src='./images/logo.png' alt='Huddle Sphere' className='mb-4' />
-                <PropagateLoader color="#FF6A19" />
+                {/* <PropagateLoader color="#FF6A19" /> */}
+                <h3 className='text-white'>Laoding...</h3>
               </section>
             </>
           ) : (
