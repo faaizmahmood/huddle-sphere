@@ -1,48 +1,182 @@
+/* Fonts Catamaran */
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+/* Fonts Catamaran */
+
+/* Font Archivo Black */
+
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
+/* Font Archivo Black */
+
+/* Font Archivo */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Font Archivo */
 
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../../public/font/HelveticaNeueBlack.otf');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../../public/font/HelveticaNeueHeavy.otf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../../public/font/HelveticaNeueBold.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../../public/font/HelveticaNeueMedium.otf');
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../../public/font/HelveticaNeueLight.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../../public/font/HelveticaNeueThin.otf');
+    font-weight: 100;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Archivo Black", sans-serif;
+    margin: 0 !important;
 }
-
-.comming_soon {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 
 h1 {
-    color: #FF6A19;
-    font-family: "Archivo Black";
-    font-size: 80px;
+    font-size: 90px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
     line-height: 104px;
-    width: 85%;
-    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
 
     span {
-        color: white;
+        font-weight: 400;
+    }
+}
+
+h3 {
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+h4 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+
+    span{
+        font-weight: 400;
+    }
+}
+
+h5 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+h6 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+span.color-chnage {
+    color: #FF6A19;
+}
+
+button {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    outline: none;
+}
+
+p {
+    color: #686868;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "Archivo", sans-serif;
+    margin: 0 !important;
+}
+
+
+.hr {
+    width: 20%;
+    border-bottom: 2px solid #FF6A19;
+    margin-top: 10px;
+}
+
+
+.popup-content {
+    margin: auto;
+    background: #000 !important;
+    width: 80% !important;
+    padding: 0px !important;
+    border: none !important;
+    border-radius: 10px;
+}
+
+
+/* responsive */
+
+
+@media (max-width:768px) {
+    
+    h1{
+        font-size: 60px;
+        line-height: 70px;
     }
 }
 
 
-button {
-    border-radius: 70px;
-    background: #FF6A19;
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    color: #FFF;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+@media (max-width:576px) {
+    
+    h1{
+        font-size: 44px;
+        line-height: 58apx;
+    }
 }

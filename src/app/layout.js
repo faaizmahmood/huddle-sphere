@@ -1,3 +1,8 @@
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './globals.css';
+
+
 export const metadata = {
   title: 'Huddle Sphere | Co-Working Space',
   description: 'Huddle Sphere is a modern co-working space that fosters creativity, collaboration, and innovation. Book your desk or office today!',
@@ -53,6 +58,12 @@ export default function RootLayout({ children }) {
         {/* Link to a favicon */}
         {/* <link rel="icon" href="/favicon.ico" /> */}
         <title>{metadata.title}</title>
+
+        {/* <!--====== font awsome======= --> */}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+       {/* <!--====== font awsome======= --> */}
+
+
       </head>
       <body>{children}</body>
     </html>

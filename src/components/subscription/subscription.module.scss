@@ -1,0 +1,51 @@
+.subscription {
+    width: 100%;
+    min-height: 400px;
+    background-color: black;
+
+    .subscription_card {
+        background-color: white;
+        min-height: 100px;
+        padding: 30px 20px;
+        text-align: center;
+
+        &.highlight_card{
+            background: #FF6A19 !important;
+
+            button{
+                background-color: #000 !important;
+                color: white !important;
+            }
+        }
+
+        h6 {
+            color: #000;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+        }
+
+        h2 {
+            color: #000;
+
+            span {
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 52px;
+            }
+        }
+
+        p {
+            color: #686868;
+        }
+
+        button {
+            padding: 15px 30px;
+            border-radius: 70px;
+            background: #FF6A19;
+        }
+    }
+
+}
