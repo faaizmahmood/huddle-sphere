@@ -16,8 +16,8 @@ const Footer = () => {
 
                         <div className={`${styles.social_icon} d-flex gap-2 mt-3`}>
 
-                            <img src='./icon/facebook.png' alt='Co-Remotely - Co-Working Space' />
-                            <img src='./icon/instagram.png' alt='Co-Remotely - Co-Working Space' />
+                            <img src='./icon/facebook.png' alt='Co-Remotely - Co-Working Space In Lahore' />
+                            <img src='./icon/instagram.png' alt='Co-Remotely - Co-Working Space In Lahore' />
 
                         </div>
                     </div>
