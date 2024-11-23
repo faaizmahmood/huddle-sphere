@@ -2,8 +2,8 @@
 
 import React, { useEffect, useState } from 'react'
 import styles from './about.module.scss'
-import Popup from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
+// import Popup from 'reactjs-popup';
+// import 'reactjs-popup/dist/index.css';
 // import { PropagateLoader } from 'react-spinners';
 
 const About = () => {
