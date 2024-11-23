@@ -11,14 +11,44 @@ const Hero = () => {
         backgroundRepeat: 'no-repeat'
     }
 
+
+    const phoneNumber = "+923001290077";
+    const message = "Hello, I would like to learn more about your services!";
+
+    const handleClick = () => {
+        const encodedMessage = encodeURIComponent(message);
+
+        // Detect if the user is on a mobile device
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+        const whatsappUrl = isMobile
+            ? `https://wa.me/${phoneNumber}?text=${encodedMessage}` // Mobile URL
+            : `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`; // Desktop URL
+
+        // Redirect to the appropriate URL
+        window.open(whatsappUrl, "_blank");
+    };
+
     return (
         <section className={`${styles.hero}`} style={heroBG}>
+
+            <div className={`d-md-none d-block ${styles.side_icon}`}>
+
+                <div className={`${styles.side_icon_item}`} onClick={handleClick}>
+                    <img src='./icon/whatsapp.png' alt='Co-Remotely - Co-Working Space' className='img-fluid' />
+                </div>
+                {/* <div className={`${styles.side_icon_item} mt-3`}>
+                <img src='./icon/whatsapp.png' alt='Co-Remotely - Co-Working Space' className='img-fluid' />
+                </div> */}
+            </div>
+
             <div className='container position-relative h-100'>
+
                 <Navbar />
 
                 <div className={`${styles.hero_content} mt-5`}>
-                    <h1><span>Work, Collaborate</span>, Thrive – All in One Place.</h1>
-                    <p>At HuddleSphere, we offer flexible, inspiring spaces designed to fuel your creativity and productivity.</p>
+                    <h1><span>Work, Collaborate</span>, Thrive - All in One Place.</h1>
+                    <p>At CoRemotly, we offer flexible, inspiring spaces designed to fuel your creativity and productivity.</p>
 
                     <div className='d-sm-flex gap-3 mt-3'>
                         <button>Explore Our Spaces</button>

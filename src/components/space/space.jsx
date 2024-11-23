@@ -29,7 +29,7 @@ const Space = () => {
                             <button className='mt-4'>Get Workspace</button>
                         </div>
                         <div className='col-lg-7'>
-                            <img src='./images/space_image.png' alt='Huddle Sphere - Co-Working Space' className='img-fluid' />
+                            <img src='./images/space_image.png' alt='Co-Remotely - Co-Working Space' className='img-fluid' />
                         </div>
 
                     </div>

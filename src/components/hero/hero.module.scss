@@ -4,6 +4,23 @@
     height: 135vh;
 
 
+    .side_icon {
+
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+
+        .side_icon_item {
+            background-color: #FF6A19;
+            padding: 20px;
+            border: 1px solid white;
+            border-radius: 50%;
+            z-index: 999;
+        }
+
+    }
+
+
     .hero_content {
 
         h1 {
@@ -98,70 +115,22 @@
 // responsive{
 
 @media (max-width:768px) {
-    
+
     .hero {
 
         width: 100%;
-        height: 70vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
-    
-    
 
-    
-    
-        .hero_boxes {
-            position: absolute;
-            bottom: 0;
-            right: 0;
-    
-            .hero_box {
-                padding: 20px;
-                display: flex;
-                justify-content: center;
-                // align-items: center;
-                flex-direction: column;
-            }
-    
-            .hero_boxes_1 {
-                width: 313px;
-                min-height: 124px;
-                background-color: #000;
-    
-                h6 {
-                    color: #FFF;
-                    font-size: 26px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: normal;
-                }
-    
-                p {
-                    color: #FF6A19;
-                    font-size: 14px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: normal;
-                }
-            }
-    
-            .hero_boxes_2 {
-                width: 314px;
-                height: 195px;
-                background: #FF6A19;
-    
-                h6 {
-                    color: #FFF;
-                    font-size: 24px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: 34px;
-                    /* 141.667% */
-                }
-            }
+        .hero_content {
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
-    
+
     }
 
 }

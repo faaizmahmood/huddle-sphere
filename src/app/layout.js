@@ -4,26 +4,26 @@ import './globals.css';
 
 
 export const metadata = {
-  title: 'Huddle Sphere | Co-Working Space',
-  description: 'Huddle Sphere is a modern co-working space that fosters creativity, collaboration, and innovation. Book your desk or office today!',
-  keywords: 'co-working space, office space, creative workspace, book office, Huddle Sphere, flexible workspace, innovation hub',
-  author: 'Huddle Sphere',
+  title: 'Co-Remotly | Co-Working Space',
+  description: 'Co-Remotly is a modern co-working space that fosters creativity, collaboration, and innovation. Book your desk or office today!',
+  keywords: 'co-working space, office space, creative workspace, book office, Co-Remotly, flexible workspace, innovation hub',
+  author: 'Co-Remotly',
 
   openGraph: {
-    title: 'Huddle Sphere | Co-Working Space',
-    description: 'Huddle Sphere offers a collaborative, flexible, and inspiring workspace for individuals and teams. Discover our modern office spaces and services today!',
-    url: 'https://www.huddlesphere.com',
-    image: 'https://www.huddlesphere.com/og-image.jpg',
-    siteName: 'Huddle Sphere',
+    title: 'Co-Remotly | Co-Working Space',
+    description: 'Co-Remotly offers a collaborative, flexible, and inspiring workspace for individuals and teams. Discover our modern office spaces and services today!',
+    url: 'https://www.co-remotely.com/',
+    image: 'https://www.co-remotely.com//og-image.jpg',
+    siteName: 'Co-Remotly',
     locale: 'en_US',
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Huddle Sphere | Co-Working Space',
-    description: 'Book your desk or office at Huddle Sphere, the best co-working space for professionals, freelancers, and entrepreneurs.',
-    image: 'https://www.huddlesphere.com/twitter-card.jpg',
-    site: '@HuddleSphere',
+    title: 'Co-Remotly | Co-Working Space',
+    description: 'Book your desk or office at Co-Remotly, the best co-working space for professionals, freelancers, and entrepreneurs.',
+    image: 'https://www.co-remotely.com/twitter-card.jpg',
+    site: '@Co-Remotly',
   },
 };
 
@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
 
         {/* <!--====== font awsome======= --> */}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-       {/* <!--====== font awsome======= --> */}
+        {/* <!--====== font awsome======= --> */}
 
 
       </head>

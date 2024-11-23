@@ -10,24 +10,24 @@ import 'swiper/css/pagination';
 
 const Testimonial = () => {
 
-    const swiperRef = useRef(null); 
+    const swiperRef = useRef(null);
 
     const testimonials = [
         {
             id: 1,
-            quote: "“Every time I step into HuddleSphere, I feel motivated. The vibrant atmosphere is inspiring, making it the perfect place to collaborate and innovate.”",
+            quote: "“Every time I step into Co-Remotly, I feel motivated. The vibrant atmosphere is inspiring, making it the perfect place to collaborate and innovate.”",
             author: "Ali Khan",
             role: "Freelancer"
         },
         {
             id: 2,
-            quote: "“HuddleSphere has transformed how I work. The facilities are top-notch, and the staff is always ready to help. I’ve built lasting professional relationships here.”",
+            quote: "“Co-Remotly has transformed how I work. The facilities are top-notch, and the staff is always ready to help. I’ve built lasting professional relationships here.”",
             author: "Ayesha Siddiqui",
             role: "Entrepreneur"
         },
         {
             id: 3,
-            quote: "“As a remote worker, HuddleSphere provides me with the perfect blend of focus and networking opportunities. Highly recommended!”",
+            quote: "“As a remote worker, Co-Remotly provides me with the perfect blend of focus and networking opportunities. Highly recommended!”",
             author: "Omar Sheikh",
             role: "Remote Worker"
         },
@@ -39,42 +39,42 @@ const Testimonial = () => {
         },
         {
             id: 5,
-            quote: "“The flexibility at HuddleSphere allows me to work on my own terms. The environment is both professional and welcoming.”",
+            quote: "“The flexibility at Co-Remotly allows me to work on my own terms. The environment is both professional and welcoming.”",
             author: "Zain Abbas",
             role: "Software Developer"
         },
         {
             id: 6,
-            quote: "“HuddleSphere offers an inspiring and productive workspace. It’s my go-to place for important meetings and brainstorming sessions.”",
+            quote: "“Co-Remotly offers an inspiring and productive workspace. It’s my go-to place for important meetings and brainstorming sessions.”",
             author: "Rabia Naeem",
             role: "Marketing Specialist"
         },
         {
             id: 7,
-            quote: "“As a freelancer, I needed a space that supports creativity and focus. HuddleSphere exceeds my expectations every time.”",
+            quote: "“As a freelancer, I needed a space that supports creativity and focus. Co-Remotly exceeds my expectations every time.”",
             author: "Ahmed Raza",
             role: "Freelancer"
         },
         {
             id: 8,
-            quote: "“From high-speed internet to excellent customer service, HuddleSphere has it all. It’s a perfect place for startups!”",
+            quote: "“From high-speed internet to excellent customer service, Co-Remotly has it all. It’s a perfect place for startups!”",
             author: "Sana Iqbal",
             role: "Startup Founder"
         },
         {
             id: 9,
-            quote: "“I’ve been working from HuddleSphere for months now, and it’s been an incredible experience. Highly recommended!”",
+            quote: "“I’ve been working from Co-Remotly for months now, and it’s been an incredible experience. Highly recommended!”",
             author: "Hassan Ali",
             role: "Content Writer"
         },
         {
             id: 10,
-            quote: "“HuddleSphere not only provides a workspace but also an inspiring community. It has helped me grow my network tremendously.”",
+            quote: "“Co-Remotly not only provides a workspace but also an inspiring community. It has helped me grow my network tremendously.”",
             author: "Mariam Yusuf",
             role: "Business Consultant"
         }
     ];
-    
+
 
     return (
         <section className={styles['testimonial-section']}>
@@ -94,13 +94,13 @@ const Testimonial = () => {
             >
 
                 {
-                    testimonials.map((ele,ind) => {
+                    testimonials.map((ele, ind) => {
                         return (
                             <>
                                 <SwiperSlide key={ind}>
                                     <div className={`${styles.test_card_wrapper}`}>
                                         <div className={styles['quote-icon']}>
-                                            <img src='./images/testmonial_icon.png' alt='Co-Remotely - co-working space'/>
+                                            <img src='./images/testmonial_icon.png' alt='Co-Remotely - co-working space' />
                                         </div>
                                         <p className='mt-3'>
                                             {ele.quote}

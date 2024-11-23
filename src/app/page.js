@@ -21,12 +21,22 @@ export default function Home() {
   const [loading, setLoading] = useState(true)
 
 
+
   useEffect(() => {
-    setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
-    }, 2000);
-  }, [])
+    // Simulate the loading completion when the page fully renders
+    const handleLoad = () => setLoading(false);
+
+    // Wait for the DOM and Next.js hydration to finish
+    if (document.readyState === "complete") {
+      handleLoad();
+    } else {
+      window.addEventListener("load", handleLoad);
+    }
+
+    // Cleanup event listener
+    return () => window.removeEventListener("load", handleLoad);
+  }, []);
+
 
   return (
     <>
@@ -34,10 +44,10 @@ export default function Home() {
         {
           loading ? (
             <>
-              <section className='d-flex flex-column justify-content-center align-items-center' style={{ height: '100vh', backgroundColor: '#000' }}>
-                <img src='./images/logo.png' alt='Huddle Sphere' className='mb-4' />
+              <section className={` d-flex flex-column justify-content-center align-items-center loading`} style={{ height: '100vh', backgroundColor: '#000' }}>
+                <img src='./images/logo.png' alt='Co-Remotly - Co Working Space' className='mb-4' />
                 {/* <PropagateLoader color="#FF6A19" /> */}
-                <h3 className='text-white'>Laoding...</h3>
+                <h4 className='text-white'>Laoding...</h4>
               </section>
             </>
           ) : (

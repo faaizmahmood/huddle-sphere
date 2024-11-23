@@ -30,7 +30,7 @@ const Trial = () => {
     <p>Hub Owner</p>
 </div>
 
-<img src='./images/sign.png'  alt='Huddle Sphere - Co-Working Space'/>
+<img src='./images/sign.png'  alt='Co-Remotly - Co-Working Space'/>
 
 </div>
 

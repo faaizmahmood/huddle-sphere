@@ -10,7 +10,7 @@ const Navbar = () => {
                 </div>
                 <div className='col-sm-6 d-sm-block d-none'>
                     <nav className={`${styles.nav} d-flex justify-content-end align-items-center gap-4`}>
-                        <button>+92 300 1290077</button>
+                        <a href='tel:+92 300 1290077'><button>+92 300 1290077</button></a>
                     </nav>
                 </div>
             </div>
