@@ -64,6 +64,9 @@ export default function RootLayout({ children }) {
         {/* <!--====== font awsome======= --> */}
 
 
+        <link rel="icon" type="image/x-icon" href="./icon/fav_icon.png" />
+
+
       </head>
       <body>{children}</body>
     </html>
