@@ -47,8 +47,8 @@ const Hero = () => {
                 <Navbar />
 
                 <div className={`${styles.hero_content} mt-5`}>
-                    <h1><span>Work, Collaborate</span>, Thrive - All in One Place.</h1>
-                    <p>At CoRemotly, we offer flexible, inspiring spaces designed to fuel your creativity and productivity.</p>
+                    <h1 className='pt-4'><span>Work, Collaborate</span>, Thrive - All in One Place.</h1>
+                    <h6 className='text-white'>At CoRemotly, we offer flexible, inspiring spaces designed to fuel your creativity and productivity.</h6>
 
                     <div className='d-sm-flex gap-3 mt-3'>
                         <button>Explore Our Spaces</button>
@@ -58,7 +58,7 @@ const Hero = () => {
 
                 <div className={`${styles.hero_boxes} d-md-flex d-none align-items-end`}>
                     <div className={`${styles.hero_box} ${styles.hero_boxes_1}`}>
-                        <div>
+                        <div onClick={handleClick} style={{cursor:'pointer'}}>
                             <img src='./icon/whatsapp.png' alt='Co-Remotely - Co-Working Space' className='img-fluid' />
 
                             <h6 className='mt-3'>+92 300 1085680</h6>

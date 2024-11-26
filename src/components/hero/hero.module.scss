@@ -31,12 +31,9 @@
             }
         }
 
-        p {
-            color: #FFF;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
+        h6{
+            font-weight: 500;
+            width: 75%;
         }
 
         button {
@@ -51,8 +48,8 @@
             }
 
             &:nth-child(2) {
-                background-color: #000000;
-                color: #fff;
+                background-color: #ffffff;
+                color: #000000;
             }
         }
     }

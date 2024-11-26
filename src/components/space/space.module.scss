@@ -9,6 +9,23 @@
     .space_wrapper{
         width: 100%;
         min-height: 200px;
+        position: relative;
+        z-index: 999;
+
+
+        .plant_image{
+            position: absolute;
+            top: 30px;
+            left: -100px;
+            z-index: -999;
+        }
+
+        .bowl_image{
+            position: absolute;
+            bottom: 30px;
+            right: -100px;
+            z-index: -999;
+        }
 
         p{
             color: #686868;

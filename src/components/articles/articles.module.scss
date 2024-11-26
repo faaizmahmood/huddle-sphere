@@ -1,6 +1,21 @@
 .articles {
 
 
+    .articles_content {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .hr {
+            width: 10%;
+            border-bottom: 2px solid #FF6A19;
+            margin-top: 10px;
+        }
+    }
+
+
     .post_item {
         min-height: 100px;
 
@@ -9,7 +24,7 @@
         }
 
         .post_body {
-                        
+
 
             p {
                 color: #686868;
@@ -20,13 +35,13 @@
             }
 
 
-            .divider{
+            .divider {
                 width: 100%;
                 height: 5px;
                 background-color: #CCCCCC;
             }
 
-            .read_more_btn{
+            .read_more_btn {
                 border-bottom: 2px solid #FF6A19;
                 padding: 3px 0px;
                 width: fit-content;

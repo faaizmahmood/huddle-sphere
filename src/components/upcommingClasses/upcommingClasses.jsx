@@ -24,7 +24,7 @@ const UpcommingClasses = () => {
 
     return (
         <section className={`${styles.upcommingClasses} mt-5 text-center`}>
-            <h2 className='text-black'><span>Who Do We </span>Provide Space For?</h2>
+            <h2 className='text-black mt-lg-5 mt-0'><span>Who Do We </span>Provide Space For?</h2>
             <div className={`${styles.hr} mt-3`}></div>
             <p className='text-center mt-4'>we provide workspace solutions for a variety of professionals and teams. Whether you're a freelancer, a startup, a remote employee, or a team looking for a collaborative environment, we’ve got the perfect space to meet your needs.</p>
             {/* <button className='mt-5'>More events</button> */}

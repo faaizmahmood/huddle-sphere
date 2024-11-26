@@ -26,11 +26,11 @@ const Cards = () => {
     return (
         <section className={`${styles.cards} py-5 mt-5`}>
             <div className='container'>
-                <div className={`${styles.cards_items} row g-2`}>
+                <div className={`${styles.cards_items} row g-3`}>
 
                     <div className={`col-lg-3`}>
                         <div className={`${styles.cards_content} ${styles.card_item} text-lg-start text-center`}>
-                            <h2>We care about <span>visitors</span></h2>
+                            <h2 className='text-black'>We care about <span>visitors</span></h2>
                             <div className='hr mb-2 mx-lg-0 mx-auto '></div>
                             <p>Your experience matters to us; we're dedicated to providing a welcoming and supportive environment.</p>
                         </div>

@@ -21,13 +21,13 @@ const About = () => {
 
     return (
         <section className={`${styles.about} my-5`}>
-            <div className='container'>
+            <div className='container py-sm-5'>
                 <div className='row'>
                     <div className='col-lg-6 text-center'>
                         <img src='./images/about.png' alt='Co-Remotly - Co-Working Space' className='img-fluid' />
                     </div>
                     <div className='col-lg-6 mt-lg-0 mt-5'>
-                        <h2>Space for Freelancers and <span>Creative People</span></h2>
+                        <h2>Space for Freelancers <br/> and <span>Creative People</span></h2>
                         <div className='hr'></div>
                         <p className='mt-3'>At Co-Remotly, we provide an inspiring and flexible environment tailored for freelancers and creative individuals. Our coworking space is designed to foster creativity, collaboration, and productivity, making it the perfect place for you to thrive.</p>
 

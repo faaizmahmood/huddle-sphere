@@ -36,7 +36,13 @@ const Articles = () => {
 
     return (
         <section className={`${styles.articles} my-5`}>
-            <div className='container'>
+
+            <div className={`${styles.articles_content}`}>
+                <h2 className='text-black mt-lg-4 mt-0'><span>Recent </span>articles</h2>
+                <div className={`${styles.hr} mt-3`}></div>
+           </div>
+
+            <div className='container mt-sm-5 mt-4'>
 
                 <div className='row g-2'>
 

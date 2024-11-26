@@ -8,7 +8,14 @@ const Space = () => {
             <div className='container'>
                 <h2 className='text-center text-white'>Meet our <span>hub space</span></h2>
 
-                <div className={`${styles.space_wrapper} mt-3`}>
+                <div className={`${styles.space_wrapper} mt-5 mb-sm-4`}>
+
+                    {/* plant image */}
+                    <div className={`${styles.plant_image} d-xl-block d-none`}>
+                        <img src='./images/plant_img.png' alt='Co-Remotely - Co-Working Space' className='img-fluid' />
+                    </div>
+                    {/* plant image */}
+
                     <div className='row flex-column-reverse flex-lg-row g-0'>
 
                         <div className='col-lg-5 bg-white px-4 py-5'>
@@ -33,6 +40,12 @@ const Space = () => {
                         </div>
 
                     </div>
+
+                    {/* plant image */}
+                    <div className={`${styles.bowl_image} d-xl-block d-none`}>
+                        <img src='./images/bowl_img.png' alt='Co-Remotely - Co-Working Space' className='img-fluid' />
+                    </div>
+                    {/* plant image */}
                 </div>
             </div>
 
