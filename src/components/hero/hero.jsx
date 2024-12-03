@@ -12,7 +12,7 @@ const Hero = () => {
     }
 
 
-    const phoneNumber = "+923001290077";
+    const phoneNumber = "+923001085680";
     const message = "Hello, I would like to learn more about your services!";
 
     const handleClick = () => {
@@ -32,7 +32,7 @@ const Hero = () => {
     return (
         <section className={`${styles.hero}`} style={heroBG}>
 
-            <div className={`d-md-none d-block ${styles.side_icon}`}>
+            <div className={`${styles.side_icon}`}>
 
                 <div className={`${styles.side_icon_item}`} onClick={handleClick}>
                     <img src='./icon/whatsapp.png' alt='Co-Remotely - Co-Working Space' className='img-fluid' />

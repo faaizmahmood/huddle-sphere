@@ -3,6 +3,10 @@ import styles from './navbar.module.scss'
 
 const Navbar = () => {
 
+    
+    const phoneNumber = "+923001085680";
+    const message = "Hello, I would like to learn more about your services!";
+
     const handleClick = () => {
         const encodedMessage = encodeURIComponent(message);
 
@@ -25,7 +29,7 @@ const Navbar = () => {
                 </div>
                 <div className='col-sm-6 d-sm-block d-none'>
                     <nav className={`${styles.nav} d-flex justify-content-end align-items-center gap-4`}>
-                        <button onClick={handleClick}>+92 300 1290077</button>
+                        <button onClick={handleClick}>+92 300 1085680</button>
                     </nav>
                 </div>
             </div>

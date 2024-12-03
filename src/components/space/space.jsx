@@ -6,7 +6,7 @@ const Space = () => {
         <section className={`${styles.space} py-5`}>
 
             <div className='container'>
-                <h2 className='text-center text-white'>Meet our <span>hub space</span></h2>
+                <h2 className='text-center text-white'>Meet Our <span>Hub Space</span></h2>
 
                 <div className={`${styles.space_wrapper} mt-5 mb-sm-4`}>
 

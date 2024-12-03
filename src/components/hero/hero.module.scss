@@ -9,13 +9,19 @@
         position: fixed;
         right: 30px;
         bottom: 30px;
+        cursor: pointer;
 
         .side_icon_item {
             background-color: #FF6A19;
-            padding: 20px;
+            padding: 10px;
             border: 1px solid white;
             border-radius: 50%;
             z-index: 999;
+
+            // img{
+            //     background-color: #fff;
+            //     border-radius: 50%;
+            // }
         }
 
     }
