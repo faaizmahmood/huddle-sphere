@@ -64,6 +64,13 @@ export default function RootLayout({ children }) {
         {/* <!--====== font awsome======= --> */}
 
 
+        {/* Google Search Console tag */}
+
+        <meta name="google-site-verification" content="gx5Z-pTig_1jv0HFkF_EPaR4YLy5gS0m9vpQoYPs5yQ" />
+
+        {/* Google Search Console tag */}
+
+
         <link rel="icon" type="image/x-icon" href="./icon/fav_icon.png" />
 
 
